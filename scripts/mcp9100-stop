@@ -1,0 +1,3 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# 停止 file-manager MCP HTTP 服务
+exec /data/data/com.termux/files/home/mcp-file-server/stop.sh "$@"
